@@ -1,0 +1,26 @@
+{
+  "name": "@yawarakaijs/yawarakai-wiki",
+  "version": "1.2.3",
+  "description": "Yawarakai component to query keywords on Wikipedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/dryrun.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawarakaijs/yawarakai-wiki.git"
+  },
+  "keywords": [
+    "yawarakai"
+  ],
+  "author": "Hanami Yuna",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/yawarakaijs/yawarakai-wiki/issues"
+  },
+  "homepage": "https://github.com/yawarakaijs/yawarakai-wiki#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "p-map": "^4.0.0"
+  }
+}
