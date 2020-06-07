@@ -1,7 +1,7 @@
 // Dependecies
 
 const axios = require('axios')
-const pMap = require('p-map');
+const pMap = require('p-map')
 
 let Compo = require('../../../component')
 
@@ -17,7 +17,7 @@ let main = {
                 exintro: true,
                 explaintext: true,
                 search: query,
-                limit: config.components.wiki.limit,
+                limit: 5
             }
         }).then(res => {
             if (res.data instanceof Array && res.data.length === 4 && res.data[0] === query &&
