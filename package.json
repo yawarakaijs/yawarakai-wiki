@@ -1,6 +1,6 @@
 {
   "name": "@yawarakaijs/yawarakai-wiki",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Yawarakai component to query keywords on Wikipedia",
   "main": "index.js",
   "scripts": {
